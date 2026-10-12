@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "aimobi": {
+      "type": "http",
+      "url": "https://6kfut4zfsvhltztioq46kxeuqi0miwdz.lambda-url.ap-northeast-2.on.aws/",
+      "headers": { "Authorization": "Bearer ${user_config.token}" }
+    }
+  }
+}
