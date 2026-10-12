@@ -21,6 +21,17 @@ claude plugin marketplace add grim-david/aimobi-plugin
 claude plugin install aimobi@aimobi --config token=받은토큰
 ```
 
+## 업데이트
+
+새 버전이 나오면 터미널에서:
+
+```
+claude plugin marketplace update aimobi
+claude plugin update aimobi@aimobi
+```
+
+또는 Claude Code의 `/plugin` → Marketplaces → aimobi에서 업데이트합니다. 여기서 자동 업데이트를 켜 두면 시작할 때마다 알아서 받습니다. 업데이트 뒤 앱을 재시작합니다. 토큰은 다시 넣지 않아도 됩니다.
+
 ## 사용
 
 새 대화를 열고 `/아이루 <질문>`. 예: `/아이루 통합배반 차량 목록은 어떤 예약 상태를 빼?`
