@@ -1,19 +1,29 @@
 # aimobi 플러그인
 
-Claude Code에서 `/아이루`로 회사 시스템의 코드와 운영 DB(읽기 전용)를 확인하며 대화합니다. 윈도우·맥 모두 별도 프로그램 없이 동작합니다.
+Claude Code에서 `/아이루`로 회사 시스템의 코드와 운영 DB(읽기 전용)를 확인하며 대화합니다. 윈도우·맥 모두 따로 설치할 프로그램이 없습니다.
 
 ## 설치
 
-1. 관리자에게 개인 토큰을 받습니다.
-2. 터미널(또는 Claude Code 안에서 `/plugin` 대신 아래 명령):
+먼저 관리자에게 **개인 토큰**(`aimobi_`로 시작)을 받습니다. 그다음 둘 중 편한 쪽으로 설치합니다.
+
+**Claude Code 대화창에서**
+
+```
+/plugin install aimobi --marketplace grim-david/aimobi-plugin
+```
+
+설치 중 토큰을 묻는 칸에 받은 토큰을 붙여 넣습니다.
+
+**터미널에서**
 
 ```
 claude plugin marketplace add grim-david/aimobi-plugin
-claude plugin install aimobi@aimobi --config token=<받은 토큰>
+claude plugin install aimobi@aimobi --config token=받은토큰
 ```
 
-Claude Code 대화창에서는 `/plugin install aimobi --marketplace grim-david/aimobi-plugin` 으로 설치하고, 토큰 칸에 받은 토큰을 넣습니다.
+## 사용
 
-3. 새 대화에서 `/아이루 <질문>`.
+새 대화를 열고 `/아이루 <질문>`. 예: `/아이루 통합배반 차량 목록은 어떤 예약 상태를 빼?`
 
-서버는 평일 09~19시에만 켜집니다.
+- 서버는 평일 09~19시에만 켜집니다.
+- 토큰은 다른 사람에게 주지 마세요. 잃어버렸으면 관리자에게 새로 받으면 됩니다.
