@@ -2,7 +2,7 @@
   "name": "aimobi",
   "version": "1.0.0",
   "description": "/아이루: 서버의 최신 저장소와 운영 DB(읽기 전용)를 도구로 확인하며 대화합니다.",
-  "author": { "name": "grimcommTeam" },
+  "author": { "name": "grim-david" },
   "userConfig": {
     "token": {
       "type": "string",

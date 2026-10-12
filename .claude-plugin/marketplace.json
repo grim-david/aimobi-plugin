@@ -1,6 +1,6 @@
 {
   "name": "aimobi",
-  "owner": { "name": "grimcommTeam" },
+  "owner": { "name": "grim-david" },
   "description": "그림 유지보수 도구",
   "plugins": [
     { "name": "aimobi", "source": "./plugins/aimobi", "description": "/아이루: 서버의 코드·DB 도구로 대화" }
